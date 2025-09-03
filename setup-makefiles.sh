@@ -7,8 +7,8 @@
 
 set -e
 
-export DEVICE=alioth
-export DEVICE_COMMON=sm8250-common
+export DEVICE=lime
+export DEVICE_COMMON=sm6115-common
 export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
